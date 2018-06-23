@@ -1,0 +1,77 @@
+<html>
+
+<head>
+    <title>Sign Up here</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <section>
+                    <h2>Sign Up</h2>
+                    <form method="post" action="signup.php">
+                        <div class="row uniform">
+                            <div class="8u 12u$(xsmall)">
+                                <input type="text" name="name" id="name" value="" placeholder="Full Name" />
+                            </div>
+                            <div class="8u 12u$(xsmall)">
+                                <input type="text" name="uid" id="uid" value="" placeholder="UserId" />
+                            </div>
+                            <div class="8u 12u$(xsmall)">
+                                <input type="email" name="email" id="email" value="" placeholder="Email" />
+                            </div>
+                            <div class="8u 12u$(xsmall)">
+                                <input type="password" name="passwd" id="passwd" value="" placeholder="Password" />
+                            </div>
+                            <div class="12u 12u$(xsmall)">
+                                <input type="password" name="confirm-passwd" id="confirm-passwd" value="" placeholder="Confirm Password" />
+                            </div>
+
+                            <div class="2u 12u$(small)">
+                                <input type="radio" id="male" name="sex" checked>
+                                <label for="male">Male</label>
+                            </div>
+                            <div class="2u 12u$(small)">
+                                <input type="radio" id="male" name="sex">
+                                <label for="female">Female</label>
+                            </div>
+                            <div class="8u 12u$(small)">
+                                <input type="radio" id="others" name="sex">
+                                <label for="others">Others</label>
+                            </div>
+
+                            
+                            <div class="6u 12u$(xsmall)">
+                                <input type="text" name="contactid" id="contactid" value="" placeholder="Contact Number" />
+                            </div>
+                            <div class="6u 12u$(xsmall)">
+                                <input type="text" name="altcontactid" id="altcontactid" value="" placeholder="Secondary Contact Number" />
+                            </div>
+
+
+                            <div class="12u$">
+                                <ul class="actions">
+                                    <li><input type="submit" value="Sign Up" /></li>
+                                    <li><input type="reset" value="Reset" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
